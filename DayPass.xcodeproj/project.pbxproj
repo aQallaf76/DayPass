@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174819EC2D8BE65A003958A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 174819EB2D8BE65A003958A4 /* GoogleService-Info.plist */; };
+		17481A6A2D8BF11D003958A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17481A692D8BF10F003958A4 /* ContentView.swift */; };
+		17481A6C2D8BF129003958A4 /* DayPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17481A6B2D8BF127003958A4 /* DayPassApp.swift */; };
+		AD9110397CAC80A7FBC10A14 /* Pods_DayPass_DayPassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2175C81030FDF9A5652BD3A /* Pods_DayPass_DayPassUITests.framework */; };
+		CE8CEE7152FAB0AB3F03C47A /* Pods_DayPassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C564F51F0BBCC2891D0F74B /* Pods_DayPassTests.framework */; };
+		D49B49DF7CDC298C20564D1A /* Pods_DayPass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908A8DC835891037C0F0B654 /* Pods_DayPass.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		174818912D8B59B0003958A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 174818742D8B59AD003958A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1748187B2D8B59AD003958A4;
+			remoteInfo = DayPass;
+		};
+		1748189B2D8B59B0003958A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 174818742D8B59AD003958A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1748187B2D8B59AD003958A4;
+			remoteInfo = DayPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12E9D0E7A4AD2DBFDC93EBB6 /* Pods-DayPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayPass.release.xcconfig"; path = "Target Support Files/Pods-DayPass/Pods-DayPass.release.xcconfig"; sourceTree = "<group>"; };
+		1748187C2D8B59AD003958A4 /* DayPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		174818902D8B59B0003958A4 /* DayPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1748189A2D8B59B0003958A4 /* DayPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		174819EB2D8BE65A003958A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		17481A692D8BF10F003958A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17481A6B2D8BF127003958A4 /* DayPassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPassApp.swift; sourceTree = "<group>"; };
+		200850FB3F1E7BDD6A2D9FD4 /* Pods-DayPassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayPassTests.debug.xcconfig"; path = "Target Support Files/Pods-DayPassTests/Pods-DayPassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E290DB8520E7A957BBB9C3E /* Pods-DayPass-DayPassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayPass-DayPassUITests.release.xcconfig"; path = "Target Support Files/Pods-DayPass-DayPassUITests/Pods-DayPass-DayPassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7595A140BBBD614ED236A66C /* Pods-DayPassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayPassTests.release.xcconfig"; path = "Target Support Files/Pods-DayPassTests/Pods-DayPassTests.release.xcconfig"; sourceTree = "<group>"; };
+		908A8DC835891037C0F0B654 /* Pods_DayPass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayPass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C564F51F0BBCC2891D0F74B /* Pods_DayPassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayPassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2175C81030FDF9A5652BD3A /* Pods_DayPass_DayPassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayPass_DayPassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8653F7A2433958F7D0172DA /* Pods-DayPass-DayPassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayPass-DayPassUITests.debug.xcconfig"; path = "Target Support Files/Pods-DayPass-DayPassUITests/Pods-DayPass-DayPassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC5E271BC77B94D3E2F62DA /* Pods-DayPass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayPass.debug.xcconfig"; path = "Target Support Files/Pods-DayPass/Pods-DayPass.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		174818A22D8B59B0003958A4 /* Exceptions for "DayPass" folder in "DayPass" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1748187B2D8B59AD003958A4 /* DayPass */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1748187E2D8B59AD003958A4 /* DayPass */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				174818A22D8B59B0003958A4 /* Exceptions for "DayPass" folder in "DayPass" target */,
+			);
+			path = DayPass;
+			sourceTree = "<group>";
+		};
+		174818932D8B59B0003958A4 /* DayPassTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = DayPassTests;
+			sourceTree = "<group>";
+		};
+		1748189D2D8B59B0003958A4 /* DayPassUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = DayPassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		174818792D8B59AD003958A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49B49DF7CDC298C20564D1A /* Pods_DayPass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1748188D2D8B59B0003958A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8CEE7152FAB0AB3F03C47A /* Pods_DayPassTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174818972D8B59B0003958A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9110397CAC80A7FBC10A14 /* Pods_DayPass_DayPassUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00358AE22CEA8517D83746EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				908A8DC835891037C0F0B654 /* Pods_DayPass.framework */,
+				F2175C81030FDF9A5652BD3A /* Pods_DayPass_DayPassUITests.framework */,
+				9C564F51F0BBCC2891D0F74B /* Pods_DayPassTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		174818732D8B59AD003958A4 = {
+			isa = PBXGroup;
+			children = (
+				17481A692D8BF10F003958A4 /* ContentView.swift */,
+				17481A6B2D8BF127003958A4 /* DayPassApp.swift */,
+				1748187E2D8B59AD003958A4 /* DayPass */,
+				174818932D8B59B0003958A4 /* DayPassTests */,
+				1748189D2D8B59B0003958A4 /* DayPassUITests */,
+				1748187D2D8B59AD003958A4 /* Products */,
+				C03408392409FC3425BEFDA6 /* Pods */,
+				174819EB2D8BE65A003958A4 /* GoogleService-Info.plist */,
+				00358AE22CEA8517D83746EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1748187D2D8B59AD003958A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1748187C2D8B59AD003958A4 /* DayPass.app */,
+				174818902D8B59B0003958A4 /* DayPassTests.xctest */,
+				1748189A2D8B59B0003958A4 /* DayPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C03408392409FC3425BEFDA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCC5E271BC77B94D3E2F62DA /* Pods-DayPass.debug.xcconfig */,
+				12E9D0E7A4AD2DBFDC93EBB6 /* Pods-DayPass.release.xcconfig */,
+				F8653F7A2433958F7D0172DA /* Pods-DayPass-DayPassUITests.debug.xcconfig */,
+				5E290DB8520E7A957BBB9C3E /* Pods-DayPass-DayPassUITests.release.xcconfig */,
+				200850FB3F1E7BDD6A2D9FD4 /* Pods-DayPassTests.debug.xcconfig */,
+				7595A140BBBD614ED236A66C /* Pods-DayPassTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1748187B2D8B59AD003958A4 /* DayPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174818A32D8B59B0003958A4 /* Build configuration list for PBXNativeTarget "DayPass" */;
+			buildPhases = (
+				608E2DCBBF9127D3E4F00D73 /* [CP] Check Pods Manifest.lock */,
+				174818782D8B59AD003958A4 /* Sources */,
+				174818792D8B59AD003958A4 /* Frameworks */,
+				1748187A2D8B59AD003958A4 /* Resources */,
+				9E67A6CDAE4F81B3FBE50BA4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1748187E2D8B59AD003958A4 /* DayPass */,
+			);
+			name = DayPass;
+			productName = DayPass;
+			productReference = 1748187C2D8B59AD003958A4 /* DayPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1748188F2D8B59B0003958A4 /* DayPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174818A82D8B59B0003958A4 /* Build configuration list for PBXNativeTarget "DayPassTests" */;
+			buildPhases = (
+				4790690C71FBCC9610F71D0F /* [CP] Check Pods Manifest.lock */,
+				1748188C2D8B59B0003958A4 /* Sources */,
+				1748188D2D8B59B0003958A4 /* Frameworks */,
+				1748188E2D8B59B0003958A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				174818922D8B59B0003958A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				174818932D8B59B0003958A4 /* DayPassTests */,
+			);
+			name = DayPassTests;
+			productName = DayPassTests;
+			productReference = 174818902D8B59B0003958A4 /* DayPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		174818992D8B59B0003958A4 /* DayPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174818AB2D8B59B0003958A4 /* Build configuration list for PBXNativeTarget "DayPassUITests" */;
+			buildPhases = (
+				73E6582066EC36B75D850713 /* [CP] Check Pods Manifest.lock */,
+				174818962D8B59B0003958A4 /* Sources */,
+				174818972D8B59B0003958A4 /* Frameworks */,
+				174818982D8B59B0003958A4 /* Resources */,
+				4A76EBB66C0A6278E42C2C37 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1748189C2D8B59B0003958A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1748189D2D8B59B0003958A4 /* DayPassUITests */,
+			);
+			name = DayPassUITests;
+			productName = DayPassUITests;
+			productReference = 1748189A2D8B59B0003958A4 /* DayPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		174818742D8B59AD003958A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1748187B2D8B59AD003958A4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1748188F2D8B59B0003958A4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1748187B2D8B59AD003958A4;
+					};
+					174818992D8B59B0003958A4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1748187B2D8B59AD003958A4;
+					};
+				};
+			};
+			buildConfigurationList = 174818772D8B59AD003958A4 /* Build configuration list for PBXProject "DayPass" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 174818732D8B59AD003958A4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1748187D2D8B59AD003958A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1748187B2D8B59AD003958A4 /* DayPass */,
+				1748188F2D8B59B0003958A4 /* DayPassTests */,
+				174818992D8B59B0003958A4 /* DayPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1748187A2D8B59AD003958A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174819EC2D8BE65A003958A4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1748188E2D8B59B0003958A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174818982D8B59B0003958A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4790690C71FBCC9610F71D0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayPassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A76EBB66C0A6278E42C2C37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayPass-DayPassUITests/Pods-DayPass-DayPassUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayPass-DayPassUITests/Pods-DayPass-DayPassUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayPass-DayPassUITests/Pods-DayPass-DayPassUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		608E2DCBBF9127D3E4F00D73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayPass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73E6582066EC36B75D850713 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DayPass-DayPassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E67A6CDAE4F81B3FBE50BA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayPass/Pods-DayPass-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DayPass/Pods-DayPass-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DayPass/Pods-DayPass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		174818782D8B59AD003958A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17481A6A2D8BF11D003958A4 /* ContentView.swift in Sources */,
+				17481A6C2D8BF129003958A4 /* DayPassApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1748188C2D8B59B0003958A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		174818962D8B59B0003958A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		174818922D8B59B0003958A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1748187B2D8B59AD003958A4 /* DayPass */;
+			targetProxy = 174818912D8B59B0003958A4 /* PBXContainerItemProxy */;
+		};
+		1748189C2D8B59B0003958A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1748187B2D8B59AD003958A4 /* DayPass */;
+			targetProxy = 1748189B2D8B59B0003958A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		174818A42D8B59B0003958A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC5E271BC77B94D3E2F62DA /* Pods-DayPass.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DayPass/DayPass.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DayPass/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DayPass/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alqallaf.DayPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		174818A52D8B59B0003958A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E9D0E7A4AD2DBFDC93EBB6 /* Pods-DayPass.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DayPass/DayPass.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DayPass/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DayPass/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alqallaf.DayPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		174818A62D8B59B0003958A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		174818A72D8B59B0003958A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		174818A92D8B59B0003958A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200850FB3F1E7BDD6A2D9FD4 /* Pods-DayPassTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alqallaf.DayPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayPass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DayPass";
+			};
+			name = Debug;
+		};
+		174818AA2D8B59B0003958A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7595A140BBBD614ED236A66C /* Pods-DayPassTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alqallaf.DayPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayPass.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DayPass";
+			};
+			name = Release;
+		};
+		174818AC2D8B59B0003958A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8653F7A2433958F7D0172DA /* Pods-DayPass-DayPassUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alqallaf.DayPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayPass;
+			};
+			name = Debug;
+		};
+		174818AD2D8B59B0003958A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E290DB8520E7A957BBB9C3E /* Pods-DayPass-DayPassUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alqallaf.DayPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DayPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		174818772D8B59AD003958A4 /* Build configuration list for PBXProject "DayPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174818A62D8B59B0003958A4 /* Debug */,
+				174818A72D8B59B0003958A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174818A32D8B59B0003958A4 /* Build configuration list for PBXNativeTarget "DayPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174818A42D8B59B0003958A4 /* Debug */,
+				174818A52D8B59B0003958A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174818A82D8B59B0003958A4 /* Build configuration list for PBXNativeTarget "DayPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174818A92D8B59B0003958A4 /* Debug */,
+				174818AA2D8B59B0003958A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		174818AB2D8B59B0003958A4 /* Build configuration list for PBXNativeTarget "DayPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174818AC2D8B59B0003958A4 /* Debug */,
+				174818AD2D8B59B0003958A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 174818742D8B59AD003958A4 /* Project object */;
+}
